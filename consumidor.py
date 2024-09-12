@@ -3,7 +3,7 @@ import pika
 connection = pika.BlockingConnection(pika.ConnectionParameters('localhost'))
 channel = connection.channel()
 
-# Criar a fila (caso ainda não exista)
+# Criar a fila
 channel.queue_declare(queue='minha_fila')
 
 # Função que processa a mensagem
