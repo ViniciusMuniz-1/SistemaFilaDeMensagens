@@ -28,8 +28,8 @@ Este projeto é uma implementação de um sistema de filas de mensagens usando o
 ### 1. Clonar o Repositório
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+git clone https://github.com/ViniciusMuniz-1/SistemaFilaDeMensagens
+cd SistemaFilaDeMensagens
 ```
 ### 2. Instalar Dependências
 ```
